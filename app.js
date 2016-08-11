@@ -18,7 +18,6 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
-
 app.use(express.static(path.join(__dirname, 'public')));
 // bootstrap template static files
 app.use(express.static(path.join(__dirname, 'routes/startbootstrap-agency-1.0.4')));
